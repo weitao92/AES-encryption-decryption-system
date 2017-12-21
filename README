@@ -1,0 +1,8 @@
+build: javac AES.java
+run: java AES 1/2
+
+to run my program, i take a mode parameter, 1 stands for ECB encry, 2 stands for CBC
+encry, so run java AES 1 or java AES 2
+
+a trick, you can run this: java -ea AES 1 < input.txt | diff - output.txt
+when you put your solution in output.txt, the above command can compare my result with yours.
